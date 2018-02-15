@@ -1,0 +1,141 @@
+@keyframes fadeInTitleLeft {
+    0% {opacity: 0; transform: translateX(30px);}
+    100% {opacity: 1; transform: translateX(0px);}
+}
+
+.fadeInTitleLeft {
+    animation-name: fadeInTitleLeft;
+}
+
+@keyframes fadeInTitleRight {
+    0% {opacity: 0; transform: translateX(0px);}
+    100% {opacity: 1; transform: translateX(30px);}
+}
+
+.fadeInTitleRight {
+    animation-name: fadeInTitleRight;
+}
+
+
+@keyframes fadeInDown {
+    0% {opacity: 0; transform: translateY(-30px);}
+    100% {opacity: 1; transform: translateY(0px);}
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInUp2 {
+    0% {opacity: 0; transform: translateY(300px);}
+    100% {opacity: 1; transform: translateY(0px);}
+}
+
+.fadeInUp2 {
+    animation-name: fadeInUp2;
+}
+
+@keyframes scrollDown {
+  0% {top: 0; opacity: 1;}
+    100% {top: 10px; opacity: 0.5;}
+}
+
+.scrollDown {
+  animation-name: scrollDown;
+}
+
+@keyframes progress1 {
+    0% {width:0%;}
+    100% {width:90%;}
+}
+
+.progress1 {
+    animation-name: progress1;
+}
+
+@keyframes progress2 {
+    0% {width:0%;}
+    100% {width:45%;}
+}
+
+.progress2 {
+    animation-name: progress2;
+}
+
+@keyframes progress3 {
+    0% {width:0%;}
+    100% {width:80%;}
+}
+
+.progress3 {
+    animation-name: progress3;
+}
+
+@keyframes progress4 {
+    0% {width:0%;}
+    100% {width:60%;}
+}
+
+.progress4 {
+    animation-name: progress4;
+}
+
+@keyframes progress5 {
+    0% {width:0%;}
+    100% {width:35%;}
+}
+
+.progress5 {
+    animation-name: progress5;
+}
+
+@keyframes progress6{
+    0% {width:0%;}
+    100% {width:75%;}
+}
+
+.progress6 {
+    animation-name: progress6;
+}
+
+.spinit {
+  -webkit-animation: spinit 0.2s 5;
+  -moz-animation: spinit 0.2s 5;
+  animation: spinit 0.2s 5;
+}
+
+@-webkit-keyframes spinit {
+  0% {
+    top: 0em;
+  }
+  50% {
+    top: -5em;
+  }
+  100% {
+    top: -9em;
+  }
+}
+
+@-moz-keyframes spinit {
+  0% {
+    top: 0em;
+  }
+  50% {
+    top: -5em;
+  }
+  100% {
+    top: -9em;
+  }
+}
+
+@keyframes spinit {
+  0% {
+    top: 0em;
+  }
+  50% {
+    top: -5em;
+  }
+  100% {
+    top: -9em;
+  }
+}
